@@ -54,3 +54,17 @@ class Vehicle {
         return "ready to go !"
     }
 }
+
+class Motorcycle extends Vehicle {
+    constructor () {
+        super ();
+        this.wheels = 2;
+    }
+    wheely () {
+        return "on the road agaun !"
+    }
+}
+
+const myBike = new Motorcycle()
+console.log(myBike.wheels);
+console.log(myBike.ready());
