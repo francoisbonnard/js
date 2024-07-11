@@ -1,0 +1,42 @@
+# Exclure les fichiers compilés Windows
+*.exe
+*.dll
+*.obj
+*.o
+*.so
+*.dylib
+
+# Exclure les fichiers de sortie de l'éditeur
+*.log
+*.tmp
+
+# Exclure les fichiers de projet de l'éditeur
+*.vcxproj
+*.sln
+
+# Exclure les fichiers de configuration d'environnement
+.vscode/
+.idea/
+
+# Exclure le répertoire des modules Node.js
+node_modules/
+
+# Exclure les fichiers de log npm
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Exclure les fichiers de package lock
+package-lock.json
+yarn.lock
+
+# Exclure les fichiers de cache npm
+.npm/
+.nvm/
+
+# Exclure les fichiers environnementaux Node.js
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
